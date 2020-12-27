@@ -62,6 +62,16 @@ main .main-input {
     margin-bottom: 35px;
 }
 main .main-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 525px;
     border-radius: 100px;
+    border: 1px solid #dadce0;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
